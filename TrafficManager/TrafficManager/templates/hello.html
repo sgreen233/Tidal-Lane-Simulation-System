@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>展示数据</title>
+</head>
+<body>
+    <h1>数据列表</h1>
+    <ul>
+        {% for item in data %}
+            <li>{{ item }}</li>  <!-- 显示'name'字段的值 -->
+        {% endfor %}
+    </ul>
+</body>
+</html>
